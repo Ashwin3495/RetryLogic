@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="RetryFailedTestSuite" verbose="1" >
+<listeners>
+        <listener class-name="Analyzer.MyTransformer"/>
+  </listeners>
+  
+   <test name="RetryMulitpleFailedTestCases">
+    <classes>
+      <class name="mytests.MyTests"/>
+    </classes>
+  </test>
+
+</suite>
